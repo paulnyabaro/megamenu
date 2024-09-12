@@ -54,10 +54,14 @@ add_filter( 'wp_nav_menu_items', function( $items, $args ) {
         $grants_dropdown .= '<div class="nhce-megamenu__content">';
             $grants_dropdown .= '<div class="nhce-megamenu__heading">Grants</div>';
             $grants_dropdown .= '<div class="nhce-megamenu__links">';
-                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#overview">Overview</a></div>';
-                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#eligibility">Eligibility</a></div>';
-                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#application-process">Application Process</a></div>';
-                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#funding-options">Funding Options</a></div>';
+                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#what-we-fund">What We Fund</a></div>';
+                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#who-we-fund">Who We Fund</a></div>';
+                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#interested-in-a-partnership">Interested in a Partnership?</a></div>';
+                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#funding-types">Funding Types</a></div>';
+                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#before-you-apply">Before you Apply</a></div>';
+                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#grantee-portal">Grantee Portal</a></div>';
+                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grants/#walkthrough-videos">Application Walkthrough Videos</a></div>';
+                $grants_dropdown .= '<div><a class="local-scroll-link" href="/grant-reporting/">Grant Reporting</a></div>';
             $grants_dropdown .= '</div>';
         $grants_dropdown .= '</div>';
     $grants_dropdown .= '</ul>';
